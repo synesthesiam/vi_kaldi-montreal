@@ -1,0 +1,15 @@
+language:
+  name: "vietnamese"
+  code: "vi"
+
+speech-to-text:
+  kaldi:
+    model-type: "gmm"
+
+training:
+  kaldi:
+    model-type: "gmm"
+
+text-to-speech:
+  espeak:
+    voice: "vi"
