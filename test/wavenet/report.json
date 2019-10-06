@@ -1,0 +1,871 @@
+{
+  "statistics": {
+    "num_wavs": 9,
+    "num_words": 33,
+    "num_entities": 16,
+    "correct_transcriptions": 9,
+    "correct_intent_names": 9,
+    "correct_words": 33,
+    "correct_entities": 16,
+    "transcription_accuracy": 1,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "mở_đèn_trước.wav": {
+      "text": "mở đèn trước",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "mở",
+          "raw_value": "mở",
+          "start": 0,
+          "raw_start": 0,
+          "end": 2,
+          "raw_end": 2
+        },
+        {
+          "entity": "name",
+          "value": "trước",
+          "raw_value": "trước",
+          "start": 7,
+          "raw_start": 7,
+          "end": 12,
+          "raw_end": 12
+        }
+      ],
+      "raw_text": "mở đèn trước",
+      "tokens": [
+        "mở",
+        "đèn",
+        "trước"
+      ],
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "trước"
+      ],
+      "slots": {
+        "state": "mở",
+        "name": "trước"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00021958351135253906,
+      "wav_seconds": 0.997625,
+      "transcribe_seconds": 0.088837,
+      "word_error": {
+        "expected": "mở đèn trước",
+        "actual": "mở đèn trước",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "tắt_đèn_phòng_tắm.wav": {
+      "text": "tắt đèn phòng tắm",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "tắt",
+          "raw_value": "tắt",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 3
+        },
+        {
+          "entity": "name",
+          "value": "phòng tắm",
+          "raw_value": "phòng tắm",
+          "start": 8,
+          "raw_start": 8,
+          "end": 17,
+          "raw_end": 17
+        }
+      ],
+      "raw_text": "tắt đèn phòng tắm",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "slots": {
+        "state": "tắt",
+        "name": "phòng tắm"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0004241466522216797,
+      "wav_seconds": 1.259062,
+      "transcribe_seconds": 0.099062,
+      "word_error": {
+        "expected": "tắt đèn phòng tắm",
+        "actual": "tắt đèn phòng tắm",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "tắt_đèn_trước.wav": {
+      "text": "tắt đèn trước",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "tắt",
+          "raw_value": "tắt",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 3
+        },
+        {
+          "entity": "name",
+          "value": "trước",
+          "raw_value": "trước",
+          "start": 8,
+          "raw_start": 8,
+          "end": 13,
+          "raw_end": 13
+        }
+      ],
+      "raw_text": "tắt đèn trước",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "trước"
+      ],
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "trước"
+      ],
+      "slots": {
+        "state": "tắt",
+        "name": "trước"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0003459453582763672,
+      "wav_seconds": 0.94125,
+      "transcribe_seconds": 0.092671,
+      "word_error": {
+        "expected": "tắt đèn trước",
+        "actual": "tắt đèn trước",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "mở_đèn_phòng_tắm.wav": {
+      "text": "mở đèn phòng tắm",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "mở",
+          "raw_value": "mở",
+          "start": 0,
+          "raw_start": 0,
+          "end": 2,
+          "raw_end": 2
+        },
+        {
+          "entity": "name",
+          "value": "phòng tắm",
+          "raw_value": "phòng tắm",
+          "start": 7,
+          "raw_start": 7,
+          "end": 16,
+          "raw_end": 16
+        }
+      ],
+      "raw_text": "mở đèn phòng tắm",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "slots": {
+        "state": "mở",
+        "name": "phòng tắm"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0003857612609863281,
+      "wav_seconds": 1.299688,
+      "transcribe_seconds": 0.108008,
+      "word_error": {
+        "expected": "mở đèn phòng tắm",
+        "actual": "mở đèn phòng tắm",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "tắt_đèn_phòng_ngủ.wav": {
+      "text": "tắt đèn phòng ngủ",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "tắt",
+          "raw_value": "tắt",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 3
+        },
+        {
+          "entity": "name",
+          "value": "phòng ngủ",
+          "raw_value": "phòng ngủ",
+          "start": 8,
+          "raw_start": 8,
+          "end": 17,
+          "raw_end": 17
+        }
+      ],
+      "raw_text": "tắt đèn phòng ngủ",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "slots": {
+        "state": "tắt",
+        "name": "phòng ngủ"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00042128562927246094,
+      "wav_seconds": 1.217437,
+      "transcribe_seconds": 0.103968,
+      "word_error": {
+        "expected": "tắt đèn phòng ngủ",
+        "actual": "tắt đèn phòng ngủ",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "mở_đèn_phòng_ngủ.wav": {
+      "text": "mở đèn phòng ngủ",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "mở",
+          "raw_value": "mở",
+          "start": 0,
+          "raw_start": 0,
+          "end": 2,
+          "raw_end": 2
+        },
+        {
+          "entity": "name",
+          "value": "phòng ngủ",
+          "raw_value": "phòng ngủ",
+          "start": 7,
+          "raw_start": 7,
+          "end": 16,
+          "raw_end": 16
+        }
+      ],
+      "raw_text": "mở đèn phòng ngủ",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "slots": {
+        "state": "mở",
+        "name": "phòng ngủ"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00039196014404296875,
+      "wav_seconds": 1.262812,
+      "transcribe_seconds": 0.098319,
+      "word_error": {
+        "expected": "mở đèn phòng ngủ",
+        "actual": "mở đèn phòng ngủ",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "mấy_giờ_rồi.wav": {
+      "text": "mấy giờ rồi",
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "mấy giờ rồi",
+      "tokens": [
+        "mấy",
+        "giờ",
+        "rồi"
+      ],
+      "raw_tokens": [
+        "mấy",
+        "giờ",
+        "rồi"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002627372741699219,
+      "wav_seconds": 1.129563,
+      "transcribe_seconds": 0.105395,
+      "word_error": {
+        "expected": "mấy giờ rồi",
+        "actual": "mấy giờ rồi",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "mở_đèn_phòng_khách.wav": {
+      "text": "mở đèn phòng khách",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "mở",
+          "raw_value": "mở",
+          "start": 0,
+          "raw_start": 0,
+          "end": 2,
+          "raw_end": 2
+        },
+        {
+          "entity": "name",
+          "value": "phòng khách",
+          "raw_value": "phòng khách",
+          "start": 7,
+          "raw_start": 7,
+          "end": 18,
+          "raw_end": 18
+        }
+      ],
+      "raw_text": "mở đèn phòng khách",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "slots": {
+        "state": "mở",
+        "name": "phòng khách"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00035762786865234375,
+      "wav_seconds": 1.143938,
+      "transcribe_seconds": 0.094769,
+      "word_error": {
+        "expected": "mở đèn phòng khách",
+        "actual": "mở đèn phòng khách",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "tắt_đèn_phòng_khách.wav": {
+      "text": "tắt đèn phòng khách",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "tắt",
+          "raw_value": "tắt",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 3
+        },
+        {
+          "entity": "name",
+          "value": "phòng khách",
+          "raw_value": "phòng khách",
+          "start": 8,
+          "raw_start": 8,
+          "end": 19,
+          "raw_end": 19
+        }
+      ],
+      "raw_text": "tắt đèn phòng khách",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "slots": {
+        "state": "tắt",
+        "name": "phòng khách"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0004093647003173828,
+      "wav_seconds": 1.103625,
+      "transcribe_seconds": 0.095128,
+      "word_error": {
+        "expected": "tắt đèn phòng khách",
+        "actual": "tắt đèn phòng khách",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    }
+  },
+  "expected": {
+    "mở_đèn_trước.wav": {
+      "text": "mở đèn trước",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "mở",
+          "raw_value": "mở",
+          "start": 0,
+          "raw_start": 0,
+          "end": 2,
+          "raw_end": 2
+        },
+        {
+          "entity": "name",
+          "value": "trước",
+          "raw_value": "trước",
+          "start": 7,
+          "raw_start": 7,
+          "end": 12,
+          "raw_end": 12
+        }
+      ],
+      "raw_text": "mở đèn trước",
+      "tokens": [
+        "mở",
+        "đèn",
+        "trước"
+      ],
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "trước"
+      ],
+      "slots": {
+        "state": "mở",
+        "name": "trước"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0002334117889404297
+    },
+    "tắt_đèn_phòng_tắm.wav": {
+      "text": "tắt đèn phòng tắm",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "tắt",
+          "raw_value": "tắt",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 3
+        },
+        {
+          "entity": "name",
+          "value": "phòng tắm",
+          "raw_value": "phòng tắm",
+          "start": 8,
+          "raw_start": 8,
+          "end": 17,
+          "raw_end": 17
+        }
+      ],
+      "raw_text": "tắt đèn phòng tắm",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "slots": {
+        "state": "tắt",
+        "name": "phòng tắm"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00031280517578125
+    },
+    "tắt_đèn_trước.wav": {
+      "text": "tắt đèn trước",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "tắt",
+          "raw_value": "tắt",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 3
+        },
+        {
+          "entity": "name",
+          "value": "trước",
+          "raw_value": "trước",
+          "start": 8,
+          "raw_start": 8,
+          "end": 13,
+          "raw_end": 13
+        }
+      ],
+      "raw_text": "tắt đèn trước",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "trước"
+      ],
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "trước"
+      ],
+      "slots": {
+        "state": "tắt",
+        "name": "trước"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0002415180206298828
+    },
+    "mở_đèn_phòng_tắm.wav": {
+      "text": "mở đèn phòng tắm",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "mở",
+          "raw_value": "mở",
+          "start": 0,
+          "raw_start": 0,
+          "end": 2,
+          "raw_end": 2
+        },
+        {
+          "entity": "name",
+          "value": "phòng tắm",
+          "raw_value": "phòng tắm",
+          "start": 7,
+          "raw_start": 7,
+          "end": 16,
+          "raw_end": 16
+        }
+      ],
+      "raw_text": "mở đèn phòng tắm",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "tắm"
+      ],
+      "slots": {
+        "state": "mở",
+        "name": "phòng tắm"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0002951622009277344
+    },
+    "tắt_đèn_phòng_ngủ.wav": {
+      "text": "tắt đèn phòng ngủ",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "tắt",
+          "raw_value": "tắt",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 3
+        },
+        {
+          "entity": "name",
+          "value": "phòng ngủ",
+          "raw_value": "phòng ngủ",
+          "start": 8,
+          "raw_start": 8,
+          "end": 17,
+          "raw_end": 17
+        }
+      ],
+      "raw_text": "tắt đèn phòng ngủ",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "slots": {
+        "state": "tắt",
+        "name": "phòng ngủ"
+      },
+      "intents": [],
+      "recognize_seconds": 0.00030541419982910156
+    },
+    "mở_đèn_phòng_ngủ.wav": {
+      "text": "mở đèn phòng ngủ",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "mở",
+          "raw_value": "mở",
+          "start": 0,
+          "raw_start": 0,
+          "end": 2,
+          "raw_end": 2
+        },
+        {
+          "entity": "name",
+          "value": "phòng ngủ",
+          "raw_value": "phòng ngủ",
+          "start": 7,
+          "raw_start": 7,
+          "end": 16,
+          "raw_end": 16
+        }
+      ],
+      "raw_text": "mở đèn phòng ngủ",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "ngủ"
+      ],
+      "slots": {
+        "state": "mở",
+        "name": "phòng ngủ"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0002944469451904297
+    },
+    "mấy_giờ_rồi.wav": {
+      "text": "mấy giờ rồi",
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "mấy giờ rồi",
+      "tokens": [
+        "mấy",
+        "giờ",
+        "rồi"
+      ],
+      "raw_tokens": [
+        "mấy",
+        "giờ",
+        "rồi"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00019288063049316406
+    },
+    "mở_đèn_phòng_khách.wav": {
+      "text": "mở đèn phòng khách",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "mở",
+          "raw_value": "mở",
+          "start": 0,
+          "raw_start": 0,
+          "end": 2,
+          "raw_end": 2
+        },
+        {
+          "entity": "name",
+          "value": "phòng khách",
+          "raw_value": "phòng khách",
+          "start": 7,
+          "raw_start": 7,
+          "end": 18,
+          "raw_end": 18
+        }
+      ],
+      "raw_text": "mở đèn phòng khách",
+      "tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "raw_tokens": [
+        "mở",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "slots": {
+        "state": "mở",
+        "name": "phòng khách"
+      },
+      "intents": [],
+      "recognize_seconds": 0.000270843505859375
+    },
+    "tắt_đèn_phòng_khách.wav": {
+      "text": "tắt đèn phòng khách",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "tắt",
+          "raw_value": "tắt",
+          "start": 0,
+          "raw_start": 0,
+          "end": 3,
+          "raw_end": 3
+        },
+        {
+          "entity": "name",
+          "value": "phòng khách",
+          "raw_value": "phòng khách",
+          "start": 8,
+          "raw_start": 8,
+          "end": 19,
+          "raw_end": 19
+        }
+      ],
+      "raw_text": "tắt đèn phòng khách",
+      "tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "raw_tokens": [
+        "tắt",
+        "đèn",
+        "phòng",
+        "khách"
+      ],
+      "slots": {
+        "state": "tắt",
+        "name": "phòng khách"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0002837181091308594
+    }
+  }
+}

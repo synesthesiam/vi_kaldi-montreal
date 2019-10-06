@@ -1,0 +1,1 @@
+{"text": "mấy giờ rồi", "intent": {"name": "GetTime", "confidence": 1.0}, "entities": [], "raw_text": "mấy giờ rồi", "tokens": ["mấy", "giờ", "rồi"], "raw_tokens": ["mấy", "giờ", "rồi"], "slots": {}, "intents": [], "recognize_seconds": 0.00019288063049316406}
