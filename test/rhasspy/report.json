@@ -3,405 +3,230 @@
     "num_wavs": 10,
     "num_words": 36,
     "num_entities": 20,
-    "correct_transcriptions": 3,
-    "correct_intent_names": 10,
-    "correct_words": 30,
-    "correct_entities": 14,
-    "transcription_accuracy": 0.8333333333333334,
-    "intent_accuracy": 1,
-    "entity_accuracy": 0.7
+    "correct_transcriptions": 0,
+    "correct_intent_names": 1,
+    "correct_words": 5,
+    "correct_entities": 1,
+    "transcription_accuracy": 0.1388888888888889,
+    "intent_accuracy": 0.1,
+    "entity_accuracy": 0.05,
+    "intent_entity_accuracy": 0,
+    "average_transcription_speedup": 0.15229106248328367
   },
   "actual": {
     "20190308_203547.wav": {
-      "text": "tắt đèn phòng khách",
+      "text": "tạc đề_phòng người uống",
       "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "tắt",
-          "raw_value": "tắt",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 3
-        },
-        {
-          "entity": "name",
-          "value": "phòng khách",
-          "raw_value": "phòng khách",
-          "start": 8,
-          "raw_start": 8,
-          "end": 19,
-          "raw_end": 19
-        }
-      ],
-      "raw_text": "tắt đèn phòng khách",
-      "tokens": [
-        "tắt",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "raw_tokens": [
-        "tắt",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "slots": {
-        "state": "tắt",
-        "name": "phòng khách"
-      },
+      "entities": [],
       "intents": [],
-      "recognize_seconds": 0.00027871131896972656,
+      "slots": {},
+      "recognize_seconds": 0.00019669532775878906,
       "wav_seconds": 1.707437,
-      "transcribe_seconds": 0.107056,
+      "transcribe_seconds": 7.873688,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "tắt đèn phòng NGủ",
-        "actual": "tắt đèn phòng KHáCH",
+        "expected": "TắT đèN phòng ***      NGủ",
+        "actual": "TạC đề phòng NGườI UốNG",
         "words": 4,
-        "correct": 3,
-        "errors": 1
+        "correct": 1,
+        "errors": 4
       }
     },
     "20190308_202827.wav": {
-      "text": "mở đèn phòng khách",
+      "text": "mà ở đền hòng khá ảnh",
       "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "mở",
-          "raw_value": "mở",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 2
-        },
-        {
-          "entity": "name",
-          "value": "phòng khách",
-          "raw_value": "phòng khách",
-          "start": 7,
-          "raw_start": 7,
-          "end": 18,
-          "raw_end": 18
-        }
-      ],
-      "raw_text": "mở đèn phòng khách",
-      "tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "raw_tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "slots": {
-        "state": "mở",
-        "name": "phòng khách"
-      },
+      "entities": [],
       "intents": [],
-      "recognize_seconds": 0.0003662109375,
+      "slots": {},
+      "recognize_seconds": 3.504753112792969e-05,
       "wav_seconds": 2.234938,
-      "transcribe_seconds": 0.119204,
+      "transcribe_seconds": 13.322815,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "mở đèn phòng khách",
-        "actual": "mở đèn phòng khách",
+        "expected": "*** *** Mở   đèN PHòNG KHáCH",
+        "actual": "Mà ở đềN HòNG KHá   ảNH",
         "words": 4,
-        "correct": 4,
-        "errors": 0
+        "correct": 0,
+        "errors": 6
       }
     },
     "20190308_202910.wav": {
-      "text": "mở đèn phòng khách",
+      "text": "mà ở đền hùng ảnh",
       "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "mở",
-          "raw_value": "mở",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 2
-        },
-        {
-          "entity": "name",
-          "value": "phòng khách",
-          "raw_value": "phòng khách",
-          "start": 7,
-          "raw_start": 7,
-          "end": 18,
-          "raw_end": 18
-        }
-      ],
-      "raw_text": "mở đèn phòng khách",
-      "tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "raw_tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "slots": {
-        "state": "mở",
-        "name": "phòng khách"
-      },
+      "entities": [],
       "intents": [],
-      "recognize_seconds": 0.0003383159637451172,
+      "slots": {},
+      "recognize_seconds": 3.743171691894531e-05,
       "wav_seconds": 1.634688,
-      "transcribe_seconds": 0.122981,
+      "transcribe_seconds": 11.370231,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "mở đèn ***    TRướC",
-        "actual": "mở đèn PHòNG KHáCH",
+        "expected": "*** *** Mở   đèN TRướC",
+        "actual": "Mà ở đềN HùNG ảNH",
         "words": 3,
-        "correct": 2,
-        "errors": 2
+        "correct": 0,
+        "errors": 5
       }
     },
     "20190308_202801.wav": {
-      "text": "mở đèn phòng khách",
+      "text": "mà ở rành trường ảnh h",
       "intent": {
-        "name": "ChangeLightState",
-        "confidence": 0.75
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "mở",
-          "raw_value": "mở",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 2
-        },
-        {
-          "entity": "name",
-          "value": "phòng khách",
-          "raw_value": "phòng khách",
-          "start": 7,
-          "raw_start": 7,
-          "end": 18,
-          "raw_end": 18
-        }
-      ],
-      "raw_text": "mở đèn phòng khách",
-      "tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "raw_tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "slots": {
-        "state": "mở",
-        "name": "phòng khách"
-      },
+      "entities": [],
       "intents": [],
-      "recognize_seconds": 0.00036787986755371094,
+      "slots": {},
+      "recognize_seconds": 3.719329833984375e-05,
       "wav_seconds": 1.957313,
-      "transcribe_seconds": 0.127595,
+      "transcribe_seconds": 7.773713,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "mở đèn ***    TRướC",
-        "actual": "mở đèn PHòNG KHáCH",
+        "expected": "*** *** ***   Mở      đèN TRướC",
+        "actual": "Mà ở RàNH TRườNG ảNH H",
         "words": 3,
-        "correct": 2,
-        "errors": 2
+        "correct": 0,
+        "errors": 6
       }
     },
     "20190308_202929.wav": {
-      "text": "mở đèn phòng tắm",
+      "text": "ngồi nên phòng_ăn ảnh",
       "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "mở",
-          "raw_value": "mở",
-          "start": 0,
-          "raw_start": 0,
-          "end": 2,
-          "raw_end": 2
-        },
-        {
-          "entity": "name",
-          "value": "phòng tắm",
-          "raw_value": "phòng tắm",
-          "start": 7,
-          "raw_start": 7,
-          "end": 16,
-          "raw_end": 16
-        }
-      ],
-      "raw_text": "mở đèn phòng tắm",
-      "tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "tắm"
-      ],
-      "raw_tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "tắm"
-      ],
-      "slots": {
-        "state": "mở",
-        "name": "phòng tắm"
-      },
+      "entities": [],
       "intents": [],
-      "recognize_seconds": 0.00038504600524902344,
+      "slots": {},
+      "recognize_seconds": 3.743171691894531e-05,
       "wav_seconds": 2.064188,
-      "transcribe_seconds": 0.127002,
+      "transcribe_seconds": 15.512189,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "mở đèn phòng tắm",
-        "actual": "mở đèn phòng tắm",
+        "expected": "Mở   đèN phòng *** TắM",
+        "actual": "NGồI NêN  phòng ăN ảNH",
         "words": 4,
-        "correct": 4,
-        "errors": 0
+        "correct": 1,
+        "errors": 4
       }
     },
     "20190308_202937.wav": {
-      "text": "tắt đèn phòng khách",
+      "text": "cả quyến phùng phong",
       "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "tắt",
-          "raw_value": "tắt",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 3
-        },
-        {
-          "entity": "name",
-          "value": "phòng khách",
-          "raw_value": "phòng khách",
-          "start": 8,
-          "raw_start": 8,
-          "end": 19,
-          "raw_end": 19
-        }
-      ],
-      "raw_text": "tắt đèn phòng khách",
-      "tokens": [
-        "tắt",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "raw_tokens": [
-        "tắt",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "slots": {
-        "state": "tắt",
-        "name": "phòng khách"
-      },
+      "entities": [],
       "intents": [],
-      "recognize_seconds": 0.00037360191345214844,
+      "slots": {},
+      "recognize_seconds": 3.528594970703125e-05,
       "wav_seconds": 1.665375,
-      "transcribe_seconds": 0.109711,
+      "transcribe_seconds": 35.829541,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "tắt đèn phòng TắM",
-        "actual": "tắt đèn phòng KHáCH",
+        "expected": "TắT đèN   PHòNG TắM",
+        "actual": "Cả  QUYếN PHùNG PHONG",
         "words": 4,
-        "correct": 3,
-        "errors": 1
+        "correct": 0,
+        "errors": 4
       }
     },
     "20190308_202918.wav": {
-      "text": "tắt đèn phòng khách",
+      "text": "cá quyền luông",
       "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "tắt",
-          "raw_value": "tắt",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 3
-        },
-        {
-          "entity": "name",
-          "value": "phòng khách",
-          "raw_value": "phòng khách",
-          "start": 8,
-          "raw_start": 8,
-          "end": 19,
-          "raw_end": 19
-        }
-      ],
-      "raw_text": "tắt đèn phòng khách",
-      "tokens": [
-        "tắt",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "raw_tokens": [
-        "tắt",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "slots": {
-        "state": "tắt",
-        "name": "phòng khách"
-      },
+      "entities": [],
       "intents": [],
-      "recognize_seconds": 0.0003628730773925781,
+      "slots": {},
+      "recognize_seconds": 3.62396240234375e-05,
       "wav_seconds": 1.693312,
-      "transcribe_seconds": 0.107952,
+      "transcribe_seconds": 13.915806,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "tắt đèn ***    TRướC",
-        "actual": "tắt đèn PHòNG KHáCH",
+        "expected": "TắT đèN   TRướC",
+        "actual": "Cá   QUYềN LUôNG",
         "words": 3,
-        "correct": 2,
-        "errors": 2
+        "correct": 0,
+        "errors": 3
       }
     },
     "20190308_202851.wav": {
-      "text": "mở đèn phòng khách",
+      "text": "mà ở đề_phòng hùng",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 3.910064697265625e-05,
+      "wav_seconds": 1.843063,
+      "transcribe_seconds": 8.516804,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "*** Mở đèN phòng NGủ",
+        "actual": "Mà ở  đề phòng HùNG",
+        "words": 4,
+        "correct": 1,
+        "errors": 4
+      }
+    },
+    "20190308_202818.wav": {
+      "text": "cảng riềng hòng khá ngành vi",
+      "intent": {
+        "name": "",
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 3.790855407714844e-05,
+      "wav_seconds": 2.077437,
+      "transcribe_seconds": 27.722312,
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "expected": "***    ***     TắT đèN PHòNG KHáCH",
+        "actual": "CảNG RIềNG HòNG KHá  NGàNH VI",
+        "words": 4,
+        "correct": 0,
+        "errors": 6
+      }
+    },
+    "20190308_202729.wav": {
+      "text": "mở đèn trước",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -412,152 +237,54 @@
           "raw_start": 0,
           "end": 2,
           "raw_end": 2
-        },
-        {
-          "entity": "name",
-          "value": "phòng khách",
-          "raw_value": "phòng khách",
-          "start": 7,
-          "raw_start": 7,
-          "end": 18,
-          "raw_end": 18
-        }
-      ],
-      "raw_text": "mở đèn phòng khách",
-      "tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "raw_tokens": [
-        "mở",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "slots": {
-        "state": "mở",
-        "name": "phòng khách"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0003688335418701172,
-      "wav_seconds": 1.843063,
-      "transcribe_seconds": 0.121855,
-      "word_error": {
-        "expected": "mở đèn phòng NGủ",
-        "actual": "mở đèn phòng KHáCH",
-        "words": 4,
-        "correct": 3,
-        "errors": 1
-      }
-    },
-    "20190308_202818.wav": {
-      "text": "tắt đèn phòng khách",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 0.8
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "tắt",
-          "raw_value": "tắt",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 3
-        },
-        {
-          "entity": "name",
-          "value": "phòng khách",
-          "raw_value": "phòng khách",
-          "start": 8,
-          "raw_start": 8,
-          "end": 19,
-          "raw_end": 19
-        }
-      ],
-      "raw_text": "tắt đèn phòng khách",
-      "tokens": [
-        "tắt",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "raw_tokens": [
-        "tắt",
-        "đèn",
-        "phòng",
-        "khách"
-      ],
-      "slots": {
-        "state": "tắt",
-        "name": "phòng khách"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0004315376281738281,
-      "wav_seconds": 2.077437,
-      "transcribe_seconds": 0.120397,
-      "word_error": {
-        "expected": "tắt đèn phòng khách",
-        "actual": "tắt đèn phòng khách",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
-      }
-    },
-    "20190308_202729.wav": {
-      "text": "tắt đèn trước",
-      "intent": {
-        "name": "ChangeLightState",
-        "confidence": 1
-      },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "tắt",
-          "raw_value": "tắt",
-          "start": 0,
-          "raw_start": 0,
-          "end": 3,
-          "raw_end": 3
         },
         {
           "entity": "name",
           "value": "trước",
           "raw_value": "trước",
-          "start": 8,
-          "raw_start": 8,
-          "end": 13,
-          "raw_end": 13
+          "start": 7,
+          "raw_start": 7,
+          "end": 12,
+          "raw_end": 12
         }
       ],
-      "raw_text": "tắt đèn trước",
+      "raw_text": "mở đèn trước",
       "tokens": [
-        "tắt",
+        "mở",
         "đèn",
         "trước"
       ],
       "raw_tokens": [
-        "tắt",
+        "mở",
         "đèn",
         "trước"
       ],
       "slots": {
-        "state": "tắt",
+        "state": "mở",
         "name": "trước"
       },
       "intents": [],
-      "recognize_seconds": 0.00030875205993652344,
+      "recognize_seconds": 0.00032639503479003906,
       "wav_seconds": 0.996125,
-      "transcribe_seconds": 0.091167,
+      "transcribe_seconds": 6.633016,
+      "wrong_entities": [
+        [
+          "state",
+          "mở"
+        ]
+      ],
+      "missing_entities": [
+        [
+          "state",
+          "tắt"
+        ]
+      ],
       "word_error": {
-        "expected": "tắt đèn trước",
-        "actual": "tắt đèn trước",
+        "expected": "TắT đèn trước",
+        "actual": "Mở  đèn trước",
         "words": 3,
-        "correct": 3,
-        "errors": 0
+        "correct": 2,
+        "errors": 1
       }
     }
   },

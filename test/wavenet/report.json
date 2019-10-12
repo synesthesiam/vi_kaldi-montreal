@@ -9,14 +9,17 @@
     "correct_entities": 16,
     "transcription_accuracy": 1,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 11.905670631518255
   },
   "actual": {
     "mở_đèn_trước.wav": {
       "text": "mở đèn trước",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -54,9 +57,11 @@
         "name": "trước"
       },
       "intents": [],
-      "recognize_seconds": 0.00021958351135253906,
+      "recognize_seconds": 0.00047397613525390625,
       "wav_seconds": 0.997625,
-      "transcribe_seconds": 0.088837,
+      "transcribe_seconds": 0.089605,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "mở đèn trước",
         "actual": "mở đèn trước",
@@ -69,7 +74,8 @@
       "text": "tắt đèn phòng tắm",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -109,9 +115,11 @@
         "name": "phòng tắm"
       },
       "intents": [],
-      "recognize_seconds": 0.0004241466522216797,
+      "recognize_seconds": 0.00040984153747558594,
       "wav_seconds": 1.259062,
-      "transcribe_seconds": 0.099062,
+      "transcribe_seconds": 0.099403,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "tắt đèn phòng tắm",
         "actual": "tắt đèn phòng tắm",
@@ -124,7 +132,8 @@
       "text": "tắt đèn trước",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -162,9 +171,11 @@
         "name": "trước"
       },
       "intents": [],
-      "recognize_seconds": 0.0003459453582763672,
+      "recognize_seconds": 0.0003330707550048828,
       "wav_seconds": 0.94125,
-      "transcribe_seconds": 0.092671,
+      "transcribe_seconds": 0.09104,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "tắt đèn trước",
         "actual": "tắt đèn trước",
@@ -177,7 +188,8 @@
       "text": "mở đèn phòng tắm",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -217,9 +229,11 @@
         "name": "phòng tắm"
       },
       "intents": [],
-      "recognize_seconds": 0.0003857612609863281,
+      "recognize_seconds": 0.00037169456481933594,
       "wav_seconds": 1.299688,
-      "transcribe_seconds": 0.108008,
+      "transcribe_seconds": 0.09742,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "mở đèn phòng tắm",
         "actual": "mở đèn phòng tắm",
@@ -232,7 +246,8 @@
       "text": "tắt đèn phòng ngủ",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -272,9 +287,11 @@
         "name": "phòng ngủ"
       },
       "intents": [],
-      "recognize_seconds": 0.00042128562927246094,
+      "recognize_seconds": 0.0003764629364013672,
       "wav_seconds": 1.217437,
-      "transcribe_seconds": 0.103968,
+      "transcribe_seconds": 0.094237,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "tắt đèn phòng ngủ",
         "actual": "tắt đèn phòng ngủ",
@@ -287,7 +304,8 @@
       "text": "mở đèn phòng ngủ",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -327,9 +345,11 @@
         "name": "phòng ngủ"
       },
       "intents": [],
-      "recognize_seconds": 0.00039196014404296875,
+      "recognize_seconds": 0.0003654956817626953,
       "wav_seconds": 1.262812,
-      "transcribe_seconds": 0.098319,
+      "transcribe_seconds": 0.097383,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "mở đèn phòng ngủ",
         "actual": "mở đèn phòng ngủ",
@@ -342,7 +362,8 @@
       "text": "mấy giờ rồi",
       "intent": {
         "name": "GetTime",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "mấy giờ rồi",
@@ -358,9 +379,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0002627372741699219,
+      "recognize_seconds": 0.00025582313537597656,
       "wav_seconds": 1.129563,
-      "transcribe_seconds": 0.105395,
+      "transcribe_seconds": 0.091261,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "mấy giờ rồi",
         "actual": "mấy giờ rồi",
@@ -373,7 +396,8 @@
       "text": "mở đèn phòng khách",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -413,9 +437,11 @@
         "name": "phòng khách"
       },
       "intents": [],
-      "recognize_seconds": 0.00035762786865234375,
+      "recognize_seconds": 0.00033926963806152344,
       "wav_seconds": 1.143938,
-      "transcribe_seconds": 0.094769,
+      "transcribe_seconds": 0.097926,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "mở đèn phòng khách",
         "actual": "mở đèn phòng khách",
@@ -428,7 +454,8 @@
       "text": "tắt đèn phòng khách",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -468,9 +495,11 @@
         "name": "phòng khách"
       },
       "intents": [],
-      "recognize_seconds": 0.0004093647003173828,
+      "recognize_seconds": 0.00035262107849121094,
       "wav_seconds": 1.103625,
-      "transcribe_seconds": 0.095128,
+      "transcribe_seconds": 0.113472,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "tắt đèn phòng khách",
         "actual": "tắt đèn phòng khách",
