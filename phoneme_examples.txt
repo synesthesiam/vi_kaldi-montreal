@@ -2,7 +2,7 @@ a1_T1 apec a1_T1 p e1_T1 k
 a1_T3 bách b a1_T3 ch
 a1_T4 bảng b a1_T4 ng
 a1_T5 giãn j a1_T5 n
-a1_T6 bạch b a1_T6 ch
+a1_T6 cạnh k a1_T6 nh
 a2_T1 băng b a2_T1 ng
 a2_T2 bằng b a2_T2 ng
 a2_T3 chắc ch a2_T3 k
@@ -22,6 +22,7 @@ ai_T6 ngại ng ai_T6
 ao_T1 chao ch ao_T1
 ao_T3 cháo ch ao_T3
 ao_T4 khảo kh ao_T4
+ao_T5 bão b ao_T5
 ao_T6 thạo th ao_T6
 au3_T1 show x au3_T1
 au3_T2 thầu th au3_T2
@@ -33,17 +34,23 @@ au_T1 nhau nh au_T1
 au_T3 cháu ch au_T3
 ay3_T2 thầy th ay3_T2
 ay3_T3 giấy j ay3_T3
+ay3_T4 đẩy d2 ay3_T4
+ay3_T5 bẫy b ay3_T5
+ay3_T6 cậy k ay3_T6
 ay_T1 chay ch ay_T1
 ay_T3 cháy ch ay_T3
 ay_T4 chảy ch ay_T4
+ay_T5 dãy j ay_T5
 ay_T6 chạy ch ay_T6
-b bang b a1_T1 ng
+b bạch b a1_T6 ch
 ch bích b i_T3 ch
 d1 dang d1 a1_T1 ng
 d2 đang d2 a1_T1 ng
 e1_T1 chen ch e1_T1 n
 e1_T2 thèm th e1_T2 m
 e1_T3 chém ch e1_T3 m
+e1_T4 hẻm h e1_T4 m
+e1_T5 chẽ ch e1_T5
 e1_T6 nghẹn ng e1_T6 n
 e2_T1 bênh b e2_T1 nh
 e2_T2 nghề ng e2_T2
@@ -54,7 +61,11 @@ e2_T6 bệnh b e2_T6 nh
 eo_T1 gieo j eo_T1
 eo_T2 chèo ch eo_T2
 eo_T3 chéo ch eo_T3
-g blog b l o1_T1 g
+eo_T4 dẻo j eo_T4
+eo_T6 kẹo k eo_T6
+eu_T2 đều d2 eu_T2
+eu_T3 nếu n eu_T3
+g gạch g a1_T6 ch
 h hạch h a1_T6 ch
 i_T1 binh b i_T1 nh
 i_T2 bình b i_T2 nh
@@ -62,7 +73,7 @@ i_T3 bính b i_T3 nh
 i_T4 đỉnh d2 i_T4 nh
 i_T5 lĩnh l i_T5 nh
 i_T6 dịch j i_T6 ch
-ie2_T1 biên b ie2_T1 n
+ie2_T1 điên d2 ie2_T1 n
 ie2_T2 điềm d2 ie2_T2 m
 ie2_T3 biến b ie2_T3 n
 ie2_T4 biển b ie2_T4 n
@@ -80,10 +91,10 @@ k buộc b ua_T6 k
 kh khác kh a1_T3 k
 l clip k l i_T1 p
 m chăm ch a2_T1 m
-n buôn b ua_T1 n
-ng bong b o1_T1 ng
+n biên b ie2_T1 n
+ng bang b a1_T1 ng
 nh bánh b a1_T3 nh
-o1_T1 cong k o1_T1 ng
+o1_T1 blog b l o1_T1 g
 o1_T2 dòng j o1_T2 ng
 o1_T3 bóng b o1_T3 ng
 o1_T4 bỏng b o1_T4 ng
@@ -96,10 +107,13 @@ o2_T4 bổng b o2_T4 ng
 o2_T5 bỗng b o2_T5 ng
 o2_T6 cộng k o2_T6 ng
 o3_T1 nhơn nh o3_T1 n
+o3_T2 chờ ch o3_T2
 o3_T3 chớp ch o3_T3 p
 o3_T4 thuở th u1_T1 o3_T4
+o3_T5 ngỡ ng o3_T5
 o3_T6 chợt ch o3_T6 t
 oa_T1 đoan d2 oa_T1 n
+oa_T2 hòa h oa_T2
 oa_T3 đoán d2 oa_T3 n
 oa_T4 thoả th oa_T4
 oa_T5 doãn j oa_T5 n
@@ -110,6 +124,7 @@ oi2_T1 khôi kh oi2_T1
 oi2_T2 ngồi ng oi2_T2
 oi2_T3 chối ch oi2_T3
 oi2_T4 phổi ph oi2_T4
+oi2_T5 lỗi l oi2_T5
 oi2_T6 trội ch oi2_T6
 oi3_T1 chơi ch oi3_T1
 oi3_T2 thời th oi3_T2
@@ -120,6 +135,7 @@ oi_T1 heroin h e1_T1 d1 oi_T1 n
 oi_T2 thòi th oi_T2
 oi_T3 khói kh oi_T3
 oi_T4 giỏi j oi_T4
+oi_T5 cõi k oi_T5
 oi_T6 chọi ch oi_T6
 p chấp ch a3_T3 p
 ph fifa ph i_T1 ph a1_T1
@@ -137,6 +153,7 @@ u1_T6 bụng b u1_T6 ng
 u2_T1 bưng b u2_T1 ng
 u2_T2 bừng b u2_T2 ng
 u2_T3 chức ch u2_T3 k
+u2_T4 khử kh u2_T4
 u2_T5 vững j u2_T5 ng
 u2_T6 dựng j u2_T6 ng
 ua2_T1 chưa ch ua2_T1
@@ -145,14 +162,19 @@ ua2_T3 bước b ua2_T3 k
 ua2_T4 ngửa ng ua2_T4
 ua2_T5 chữa ch ua2_T5
 ua2_T6 dược j ua2_T6 k
-ua_T1 chua ch ua_T1
+ua_T1 buôn b ua_T1 n
 ua_T2 buồn b ua_T2 n
 ua_T3 chúa ch ua_T3
 ua_T4 duẩn j ua_T4 n
+ua_T5 đũa d2 ua_T5
 ua_T6 cuộc k ua_T6 k
 ui2_T4 chửi ch ui2_T4
 ui_T1 chui ch ui_T1
 ui_T2 ngùi ng ui_T2
+ui_T3 cúi k ui_T3
+ui_T4 củi k ui_T4
+ui_T5 gũi g ui_T5
+ui_T6 bụi b ui_T6
 uoi2_T1 đuôi d2 uoi2_T1
 uoi2_T3 cuối k uoi2_T3
 uoi2_T4 buổi b uoi2_T4
@@ -164,9 +186,15 @@ uoi3_T3 cưới k uoi3_T3
 uoi3_T4 bưởi b uoi3_T4
 uoi3_T5 lưỡi l uoi3_T5
 uou_T6 rượu r uou_T6
+uu2_T1 bưu b uu2_T1
+uu2_T3 cứu k uu2_T3
+uu2_T4 cửu k uu2_T4
+uu2_T5 hữu h uu2_T5
+uu2_T6 cựu k uu2_T6
 uy_T1 nguy ng uy_T1
 uy_T2 huỳnh h uy_T2 nh
 uy_T3 buýt b uy_T3 t
 uy_T4 thuỷ th uy_T4
+uy_T5 quỹ k uy_T5
 v viễn v ie2_T5 n
 x hđxx h d2 x x
