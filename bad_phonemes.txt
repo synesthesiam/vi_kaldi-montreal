@@ -1,0 +1,17 @@
+au_T4
+au_T5
+au_T6
+eu_T5
+ieu_T5
+oe_T5
+ui2_T1
+ui2_T2
+ui2_T3
+ui2_T5
+ui2_T6
+uoi2_T2
+uoi3_T6
+uou_T1
+uou_T2
+uou_T3
+uou_T4
