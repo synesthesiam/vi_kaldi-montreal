@@ -156,9 +156,9 @@ default:
     bytes: 11
     sha256: 63beafd4cd218ead279dce08a3e93514d657254d54435e3c2d0ba62de358bc48
   base_dictionary.txt.gz:
-    bytes: 240776
+    bytes: 239785
     file-name: base_dictionary.txt
-    sha256: b68a53501ed5d9231c4d9133442d8392d23ced7adeff72eef6a14d961a4af9ee
+    sha256: 96c51f4f19ace8270c27e1f8f379fbc0752c43c101c31e1030b956a09e6122af
   profile.yml:
     bytes: 611
     sha256: f300bbbd3b9f960dcf5ea8c542cb67d3477a81492bb6b330397aef1f5cc94add
@@ -193,8 +193,8 @@ mixed-language-model:
 # Files needed for text to speech
 text-to-speech:
   espeak_phonemes.txt:
-    bytes: 1994
-    sha256: ff016ed9e1ce6f9cdce7f7f96f027103914168d21f21187339012d1852b4cb21
+    bytes: 2375
+    sha256: 92d72d9b69aa8c3330a965430ac92a6e5e46b67380b6ddffc04880d777ac243d
 
 # Sample sentences, etc.
 examples:
