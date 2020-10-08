@@ -35,7 +35,7 @@ default:
     sha256: 4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865
   acoustic_model/graph/phones/optional_silence.txt:
     bytes: 4
-    sha256: b2897f4f7491c02d663ee433d54dadc3b1b920ce91ce47064e2d031c7625dde7
+    sha256: ebe5d1c9a1dc955e8b0e9d16062b2d6fede3ba741afdb9a6aec65810009bee11
   acoustic_model/graph/phones/silence.csl:
     bytes: 36
     sha256: 1d406213cfb0a47a154d2c517d8b7a03128cc22892d217b0ead039795c32fad4
@@ -130,7 +130,7 @@ default:
     sha256: 4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865
   acoustic_model/model/graph/phones/optional_silence.txt:
     bytes: 4
-    sha256: b2897f4f7491c02d663ee433d54dadc3b1b920ce91ce47064e2d031c7625dde7
+    sha256: ebe5d1c9a1dc955e8b0e9d16062b2d6fede3ba741afdb9a6aec65810009bee11
   acoustic_model/model/graph/phones/silence.csl:
     bytes: 36
     sha256: 1d406213cfb0a47a154d2c517d8b7a03128cc22892d217b0ead039795c32fad4
@@ -151,17 +151,17 @@ default:
     sha256: 5aca5e5c3e9df8141b303b495e269ff0927a185d9e799cdeaa4ffdc4f4f8708d
   acoustic_model/phones/optional_silence.txt:
     bytes: 4
-    sha256: b2897f4f7491c02d663ee433d54dadc3b1b920ce91ce47064e2d031c7625dde7
+    sha256: ebe5d1c9a1dc955e8b0e9d16062b2d6fede3ba741afdb9a6aec65810009bee11
   acoustic_model/phones/silence_phones.txt:
-    bytes: 11
-    sha256: 63beafd4cd218ead279dce08a3e93514d657254d54435e3c2d0ba62de358bc48
+    bytes: 12
+    sha256: 80376510e0ac0b313b3d27947e2ec4a6f30826cd1ead5b6ccd2a18dccbb5a915
   base_dictionary.txt.gz:
     bytes: 239785
     file-name: base_dictionary.txt
     sha256: 96c51f4f19ace8270c27e1f8f379fbc0752c43c101c31e1030b956a09e6122af
   profile.yml:
     bytes: 611
-    sha256: f300bbbd3b9f960dcf5ea8c542cb67d3477a81492bb6b330397aef1f5cc94add
+    sha256: cf6673cd774e3ba1824f0ec04882df95a76152330b24230d9849f8a30f9c15d1
   slot_programs/rhasspy/number:
     bytes: 651
     sha256: d1f10ccea552c2c9ba2a59dd69705f8e82545592c7db5ca7078b462ed9d08387
